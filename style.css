@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  color: white;
+  background-color: #7211a1;
+  align-items: center;
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-size: 3rem;
+  font-family: "Kaushan Script", cursive;
+  margin-right: 700px;
+  display: inline-block;
+}
+
+.nav__links{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 30rem;
+  font-family: 'Segoe UI',  sans-serif;
+  margin-left: 300px;
+  font-size: 1.5rem;
+  font:lighter;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+img {
+  height: 90vh;
+position: absolute;
+  right: 30px;
+  bottom:0px;
+  filter:drop-shadow(5px 5px 1.5rem ) ;
+}
+
+.cover{
+  background-color: #7211a1;
+  height: 92vh;
+  width: 100vw;
+  
+}
+#article{
+  color: white;
+  line-height: 30px;
+  position: absolute;
+  bottom: 300px;
+  left: 40px;
+  line-height: 50px;
+
+
+}
+#font__brush{
+  font-family: "Kaushan Script", cursive;
+  font-size: 5rem;
+
+}
+#border{
+  border-bottom: 10px dashed white;
+  width: 20rem;
+  position: relative;
+  top: 40px;
+}
+.ui{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  position: relative;
+  top: 50px;
+}
+
